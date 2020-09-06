@@ -6,7 +6,9 @@ User can stop a task at any given point in time, and can choose to resume or ter
 
 ## Technology Used
 
--**Javascript runtime** - Node.js -**Backend Framework** - Express.js -**Containerization Platform** - Docker
+-**Javascript runtime** - Node.js 
+-**Backend Framework** - Express.js 
+-**Containerization Platform** - Docker
 
 ## Installation with Docker
 

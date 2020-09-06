@@ -11,7 +11,17 @@ User can stop a task at any given point in time, and can choose to resume or ter
 ## Installation with Docker
 
 ```
+# Clone the repository
+$ git clone https://github.com/ayushi-bhardwaj/Atlan-Backend-Assignment--Task-Manager.git
 
+# Change the directory
+$ cd "Atlan-Backend-Assignment--Task-Manager"
+
+# Build Docker image
+$ docker build -t atlan-backend-task .
+
+# Run docker image
+$ docker run -p 49160:3000 -d atlan-backend-task
 ```
 
 ## Installation on local machine

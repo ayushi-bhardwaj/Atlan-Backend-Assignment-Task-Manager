@@ -6,9 +6,9 @@ User can stop a task at any given point in time, and can choose to resume or ter
 
 ## Technology Used
 
--**Javascript runtime** - Node.js 
--**Backend Framework** - Express.js 
--**Containerization Platform** - Docker
+- **Javascript runtime** - Node.js 
+- **Backend Framework** - Express.js 
+- **Containerization Platform** - Docker
 
 ## Installation with Docker
 
@@ -41,12 +41,6 @@ $ npm install
 # Start the application
 @ node index.js
 ```
-
-## Brief Working
-
--A demo csv file is being used to demonstrate the upload and download progress.
--If we hit the upload end
-
 ## APIs
 
 -**Postman Collection** https://documenter.getpostman.com/view/11482194/TVCiSRa4

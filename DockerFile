@@ -1,0 +1,14 @@
+# Download node.js image
+FROM node:12
+# make working directory as app
+WORKDIR /app
+# copy package.json to working directory
+COPY package.json /app
+# install dependencies
+RUN npm install
+# copy all the files to working directory
+COPY . /app
+# expose port 3000
+EXPOSE 3000
+# command for running the application
+CMD node index.js

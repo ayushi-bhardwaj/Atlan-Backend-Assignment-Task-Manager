@@ -10,6 +10,11 @@ User can stop a task at any given point in time, and can choose to resume or ter
 - **Backend Framework** - Express.js 
 - **Containerization Platform** - Docker
 
+## Directories
+#### Sample file  - **/utils/records.csv**
+#### Upload Directory - **/files/upload**
+#### Download Directory - **/files/download**
+
 ## Installation with Docker
 
 ```
